@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: ${DATABASE_URL}
-    username: ${DATABASE_USERNAME}
-    password: ${DATABASE_PASSWORD}
+    url: postgres://gomesduartedev:FxeHoxaeEExysFIzo3I601a5MoGuuwl3@dpg-cmk1diud3nmc73cn695g-a/api_crud_postgresql
+    username: api_crud_postgresql
+    password: FxeHoxaeEExysFIzo3I601a5MoGuuwl3
   jpa:
     hibernate:
       ddl-auto: update
